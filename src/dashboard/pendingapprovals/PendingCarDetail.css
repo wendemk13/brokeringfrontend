@@ -193,7 +193,7 @@
     margin: 0 auto;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .car-detail-header {
         flex-direction: column;

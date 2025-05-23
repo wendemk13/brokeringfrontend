@@ -1,14 +1,14 @@
-/* Remove default scrollbar */
+
 .contact-page {
     overflow-x: hidden;
 }
 
-/* Hide scrollbar but keep functionality */
+
 .contact-form::-webkit-scrollbar {
     display: none;
 }
 
-/* Form Styling */
+
 .contact-form {
     background: white;
     padding: 2.5rem;
@@ -79,7 +79,7 @@
     box-shadow: 0 6px 12px rgba(67, 97, 238, 0.15);
 }
 
-/* Layout Adjustments */
+
 .contact-container {
     max-width: 1200px;
     margin: 2rem auto;
@@ -96,7 +96,7 @@
     }
 }
 
-/* Contact Cards Styling */
+
 .contact-methods-wrapper {
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@
     border-radius: 50%;
 }
 
-/* Social Icons */
+
 .social-icons {
     display: flex;
     justify-content: center;

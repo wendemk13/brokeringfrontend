@@ -84,7 +84,7 @@
     box-shadow: 0 2px 8px rgba(24, 144, 255, 0.3);
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .reply-container {
         padding: 15px;

@@ -50,7 +50,7 @@
     font-weight: 500;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
     .messages-links {
         grid-template-columns: 1fr;

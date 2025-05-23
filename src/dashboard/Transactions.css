@@ -1,4 +1,4 @@
-/* Transactions Table Styles */
+
 .section-title {
     font-size: 1.2rem;
     font-weight: 600;
@@ -67,7 +67,7 @@ tr:hover {
     color: var(--success);
 }
 
-/* Dark mode styles */
+
 .dark-mode .section-title {
     color: #ffffff;
 }

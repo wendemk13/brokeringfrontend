@@ -1,4 +1,4 @@
-/* Sidebar Base Styles */
+
 
 .admin-sidebar {
     background:wheat;
@@ -6,9 +6,9 @@
     transition: all 0.3s ease;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     position:fixed;
-    /* top: 30px; */
+    
     height: calc(100%-30px);
-    /* bottom: 0; */
+    
     z-index: 1000;
     width: 250px;
     border-right: 1px solid rgba(67, 97, 238, 0.1);
@@ -16,10 +16,10 @@
 }
 
 .admin-sidebar.admin-active {
-    /* width: 80px; */
+    
 }
 
-/* Sidebar Header */
+
 .admin-sidebar-header {
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@
     transform: scale(1.1);
 }
 
-/* Sidebar Menu */
+
 .admin-sidebar-menu {
     padding: 0 15px;
     height: calc(100vh - 70px);
@@ -93,7 +93,7 @@
     display: none;
 }
 
-/* Scrollbar styling */
+
 .admin-sidebar-menu::-webkit-scrollbar {
     width: 5px;
 }
@@ -111,7 +111,7 @@
     background: rgba(255, 255, 255, 0.3);
 }
 
-/* Mobile Styles */
+
 @media (max-width: 768px) {
     .admin-sidebar {
         transform: translateX(-100%);

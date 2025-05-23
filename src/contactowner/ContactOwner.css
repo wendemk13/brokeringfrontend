@@ -91,7 +91,7 @@
     border: 1px solid #d93025;
 }
 
-/* Responsive */
+
 @media (max-width: 520px) {
     .contact-owner-container {
         padding: 1rem 1.25rem;

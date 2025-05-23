@@ -50,7 +50,7 @@ body {
 
 
 
-/* SIDEBAR */
+
 #sidebar {
   position: fixed;
   top: 0;
@@ -173,13 +173,13 @@ body {
   justify-content: center;
 }
 
-/* SIDEBAR */
 
 
 
 
 
-/* CONTENT */
+
+
 #content {
   position: relative;
   width: calc(100% - 280px);
@@ -195,7 +195,7 @@ body {
 
 
 
-/* NAVBAR */
+
 #content nav {
   height: 56px;
   background: var(--light);
@@ -333,13 +333,13 @@ body {
   left: calc(100% - (25px - 4px) - 2px);
 }
 
-/* NAVBAR */
 
 
 
 
 
-/* MAIN */
+
+
 #content main {
   width: 100%;
   padding: 36px 24px;
@@ -583,8 +583,8 @@ body {
   margin-bottom: 0;
 }
 
-/* MAIN */
-/* CONTENT */
+
+
 
 
 

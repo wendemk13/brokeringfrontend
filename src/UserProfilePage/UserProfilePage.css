@@ -16,7 +16,7 @@ body {
     transition: margin-left 0.3s;
 }
 
-/* Sidebar */
+
 .dashboard_sidebar {
     width: 250px;
     background: white;
@@ -55,12 +55,12 @@ body {
     border-left: 3px solid #2563eb;
 }
 
-/* Main Content */
+
 .main-content {
     flex: 1;
     padding: 30px;
     margin-left: 250px;
-    /* Adjust for sidebar width */
+    
     transition: margin-left 0.3s;
     background-color: wheat;
     display: flex;flex-direction: column;margin-top: 0;
@@ -68,7 +68,7 @@ body {
 
 .menu-toggle {
     display: none;
-    /* Hidden by default */
+    
     background: none;
     border: none;
     font-size: 1.5rem;
@@ -76,7 +76,7 @@ body {
     color: #2563eb;
 }
 
-/* Header */
+
 .dashboard_header {
     display: flex;
     justify-content: space-between;
@@ -136,7 +136,7 @@ body {
     border: 2px solid #2563eb;
 }
 
-/* Stats Cards */
+
 .stats-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -168,7 +168,7 @@ body {
     font-weight: bold;
 }
 
-/* Listings Table */
+
 .listings-table {
     width: 100%;
     background: white;
@@ -252,14 +252,14 @@ th {
     color: #dc2626;
 }
 
-/* Empty State */
+
 .empty-state {
     text-align: center;
     padding: 40px 20px;
     color: #666;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     .sidebar {
         transform: translateX(-100%);
@@ -271,12 +271,12 @@ th {
 
     .main-content {
         margin-left: 0;
-        /* No margin on mobile */
+        
     }
 
     .menu-toggle {
         display: block;
-        /* Show hamburger menu on mobile */
+        
     }
 
     .menu-toggle {
@@ -289,7 +289,7 @@ th {
 
 
 
-/* Add this to your existing CSS file or create a new one */
+
 
 .add-property-link {
     display: inline-block;
@@ -314,12 +314,12 @@ th {
     text-decoration: none;
 }
 
-/* If you want an icon before the text */
+
 .add-property-link i {
     margin-right: 8px;
 }
 
-/* Responsive adjustment */
+
 @media (max-width: 768px) {
     .add-property-link {
         width: 100%;

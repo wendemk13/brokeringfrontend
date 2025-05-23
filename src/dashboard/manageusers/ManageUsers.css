@@ -1,18 +1,4 @@
-/* Base Styles
-.admin-container {
-    padding: 20px;
-    background: #f0f2f5;
-    min-height: 100vh;
-}
 
-.loading-spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* Dashboard Styles */
 .stats-row {
     margin-bottom: 20px;
 }
@@ -44,7 +30,7 @@
     margin-top: 20px;
 }
 
-/* Table Styles */
+
 .table-header {
     display: flex;
     justify-content: space-between;
@@ -66,7 +52,7 @@
     min-width: 150px;
 }
 
-/* Profile Styles */
+
 .profile-header {
     display: flex;
     justify-content: space-between;
@@ -86,7 +72,7 @@
     padding: 20px;
 }
 
-/* Form Styles */
+
 .ban-form {
     margin-top: 20px;
 }
@@ -95,7 +81,7 @@
     margin-bottom: 20px;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .stats-row .ant-col {
         margin-bottom: 16px;
@@ -108,7 +94,7 @@
     .search-bar,
     .filter-select {
         width: 100%;
-    } } */
+    } }
 
 
 

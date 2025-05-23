@@ -1,4 +1,4 @@
-/* Approval Card Container */
+
 .admin-approval-card {
     background: #ffffff;
     border-radius: 12px;
@@ -9,7 +9,7 @@
     flex-direction: column;
 }
 
-/* Header Styles */
+
 .admin-approval-header {
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@
     font-weight: 500;
 }
 
-/* Empty State */
+
 .admin-approval-empty {
     text-align: center;
     padding: 2rem;
@@ -43,7 +43,7 @@
     font-size: 0.95rem;
 }
 
-/* Loading State */
+
 .admin-approval-loading {
     display: flex;
     align-items: center;
@@ -53,14 +53,14 @@
     padding: 2rem;
 }
 
-/* Error State */
+
 .admin-approval-error {
     color: #e53e3e;
     padding: 2rem;
     text-align: center;
 }
 
-/* Approval List */
+
 .admin-approval-list {
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     flex: 1;
 }
 
-/* Approval Item */
+
 .admin-approval-item {
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Image Container */
+
 .admin-approval-image-container {
     position: relative;
     width: 80px;
@@ -123,7 +123,7 @@
     background: #dd6b20;
 }
 
-/* Details Section */
+
 .admin-approval-details {
     flex: 1;
     min-width: 0;
@@ -156,7 +156,7 @@
     color: #4a5568;
 }
 
-/* Action Buttons */
+
 .admin-approval-actions {
     display: flex;
     gap: 0.5rem;
@@ -198,7 +198,7 @@
     background: #c53030;
 }
 
-/* Responsive Adjustments */
+
 @media (min-width: 768px) {
     .admin-approval-btn span {
         display: inline;

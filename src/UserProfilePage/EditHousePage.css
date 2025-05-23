@@ -1,4 +1,3 @@
-/* EditHousePage.css */
 
 .edit-house-container {
     max-width: 900px;
@@ -242,7 +241,7 @@ textarea {
     background: #bdbdbd;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .edit-house-container {
         padding: 1rem;
