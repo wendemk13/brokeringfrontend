@@ -14,8 +14,8 @@ function ListOfCars() {
     const fetchCars = async () => {
       try {
         
-        // const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/car`);
-                const response = await axios.get(`https://backend-klxi.onrender.com/api/car`);
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/car`);
+                // const response = await axios.get(`https://backend-klxi.onrender.com/api/car`);
                 const seen=`${process.env.REACT_APP_API_URL}/api/car`
               
 

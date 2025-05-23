@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './UserProfilePage.css';
 import axios from 'axios';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ListingsTable from './ListingsTable';
 
 const UserProfilePage = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const [loading, setLoading] = useState(true);
     const [listings, setListings] = useState([]);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     useEffect(() => {
         const fetchListings = async () => {
@@ -32,54 +32,54 @@ const UserProfilePage = () => {
         fetchListings();
     }, []);
 
-    const toggleSidebar = () => {
-        setIsSidebarOpen(!isSidebarOpen);
-    };
+    // const toggleSidebar = () => {
+    //     setIsSidebarOpen(!isSidebarOpen);
+    // };
 
-    const handleEditClick = (listingId, propertyType) => {
-        if (!listingId || !propertyType) {
-            console.error('Invalid listing data');
-            return; // Optionally show a message to the user
-        }
+    // const handleEditClick = (listingId, propertyType) => {
+    //     if (!listingId || !propertyType) {
+    //         console.error('Invalid listing data');
+    //         return; // Optionally show a message to the user
+    //     }
 
-        // Redirect to the correct edit page based on listing type (house or car)
-        if (propertyType === 'House') {
-            navigate(`/edit-house/${listingId}`);
-        } else if (propertyType === 'Car') {
-            navigate(`/edit-car/${listingId}`);
-        } else {
-            console.error('Unknown listing type');
-        }
-    };
+    //     // Redirect to the correct edit page based on listing type (house or car)
+    //     if (propertyType === 'House') {
+    //         navigate(`/edit-house/${listingId}`);
+    //     } else if (propertyType === 'Car') {
+    //         navigate(`/edit-car/${listingId}`);
+    //     } else {
+    //         console.error('Unknown listing type');
+    //     }
+    // };
 
     console.log(listings);
 
 
-const handleDeleteClick = async (id, propertyType) => {
-  try {
-    let url = '';
-    if (propertyType === 'House') {
-      url = `http://localhost:5000/api/house/${id}`;
-    } else if (propertyType === 'Car') {
-      url = `http://localhost:5000/api/car/${id}`;
-    } else {
-      console.error('Unknown property type');
-      return;
-    }
+// const handleDeleteClick = async (id, propertyType) => {
+//   try {
+//     let url = '';
+//     if (propertyType === 'House') {
+//       url = `http://localhost:5000/api/house/${id}`;
+//     } else if (propertyType === 'Car') {
+//       url = `http://localhost:5000/api/car/${id}`;
+//     } else {
+//       console.error('Unknown property type');
+//       return;
+//     }
 
-    const confirmDelete = window.confirm('Are you sure you want to delete this listing?');
-    if (!confirmDelete) return;
+//     const confirmDelete = window.confirm('Are you sure you want to delete this listing?');
+//     if (!confirmDelete) return;
 
-    const response = await axios.delete(url);
-    alert(response.data.message);
+//     const response = await axios.delete(url);
+//     alert(response.data.message);
 
-    // Update the list in UI
-    setListings(prevListings => prevListings.filter(listing => listing.id !== id));
-  } catch (error) {
-    console.error('Error deleting listing:', error);
-    alert('Failed to delete listing.');
-  }
-};
+//     // Update the list in UI
+//     setListings(prevListings => prevListings.filter(listing => listing.id !== id));
+//   } catch (error) {
+//     console.error('Error deleting listing:', error);
+//     alert('Failed to delete listing.');
+//   }
+// };
 const [user_id,setuser_id]=useState();
     useEffect(()=>{
         const user = JSON.parse(localStorage.getItem("user")); 
@@ -96,10 +96,10 @@ const [user_id,setuser_id]=useState();
     return (
         <div className={`app ${isSidebarOpen ? 'sidebar-open' : ''} container`}>
             <div className="dashboard_sidebar">
-                <a href="#" className="nav-item active">
+                <Link href="#" className="nav-item active">
                     <i>📊</i>
                     <span>Dashboard</span>
-                </a>
+                </Link>
                 <Link to='/user/car' className="nav-item">
                     <i>🚗</i>
                     <span>Cars</span>

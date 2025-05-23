@@ -58,7 +58,7 @@
 
 import './App.css';
 import HomePage from './HomePage/HomePage';
-import Footer from './components/Footer.jsx';
+// import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import PropertyDetailPage from './detail/PropertyDetailPage.jsx';
 import Login from './Login/Login.jsx';
@@ -83,7 +83,7 @@ import ProfileSettings from './dashboard/settings/ProfileSettings.jsx';
 import AdminSettings from './dashboard/settings/AdminSettings.jsx';
 import Sales from './dashboard/sales/Sales.jsx';
 import NotificationSettings from './dashboard/settings/NotificationSettings.jsx';
-import UserTransactions from './UserProfilePage/UserProfilePage.jsx';
+// import UserTransactions from './UserProfilePage/UserProfilePage.jsx';
 import UserSetting from './UserProfilePage/UserSetting.jsx';
 import UserPaymentHistory from './UserProfilePage/UserPaymentHistory.jsx';
 import UserProfileUpdate from './UserProfilePage/settings/UserProfileUpdate.jsx';

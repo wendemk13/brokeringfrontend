@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -12,43 +13,43 @@ function Footer() {
             and vehicles.
           </p>
           <div className="social-links">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+            <Link href="#"><i className="fab fa-facebook-f"></i></Link>
+            <Link href="#"><i className="fab fa-twitter"></i></Link>
+            <Link href="#"><i className="fab fa-instagram"></i></Link>
+            <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
           </div>
         </div>
 
         <div className="footer-col">
           <h3>Quick Links</h3>
           <ul className="footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Properties</a></li>
-            <li><a href="#">Cars</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><Link href="#">Home</Link></li>
+            <li><Link href="#">Properties</Link></li>
+            <li><Link href="#">Cars</Link></li>
+            <li><Link href="#">About Us</Link></li>
+            <li><Link href="#">Contact</Link></li>
           </ul>
         </div>
 
         <div className="footer-col">
           <h3>Properties</h3>
           <ul className="footer-links">
-            <li><a href="#">Houses</a></li>
-            <li><a href="#">Apartments</a></li>
-            <li><a href="#">Commercial</a></li>
-            <li><a href="#">Land</a></li>
-            <li><a href="#">Vacation Homes</a></li>
+            <li><Link href="#">Houses</Link></li>
+            <li><Link href="#">Apartments</Link></li>
+            <li><Link href="#">Commercial</Link></li>
+            <li><Link href="#">Land</Link></li>
+            <li><Link href="#">Vacation Homes</Link></li>
           </ul>
         </div>
 
         <div className="footer-col">
           <h3>Vehicles</h3>
           <ul className="footer-links">
-            <li><a href="#">Cars</a></li>
-            <li><a href="#">SUVs</a></li>
-            <li><a href="#">Trucks</a></li>
-            <li><a href="#">Motorbikes</a></li>
-            <li><a href="#">Commercial Vehicles</a></li>
+            <li><Link href="#">Cars</Link></li>
+            <li><Link href="#">SUVs</Link></li>
+            <li><Link href="#">Trucks</Link></li>
+            <li><Link href="#">Motorbikes</Link></li>
+            <li><Link href="#">Commercial Vehicles</Link></li>
           </ul>
         </div>
 
@@ -68,7 +69,7 @@ function Footer() {
       <div className="footer-bottom">
         <p>
           &copy; 2023 HomeNest. All Rights Reserved. |
-          <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+          <Link href="#">Privacy Policy</Link> | <Link href="#">Terms of Service</Link>
         </p>
       </div>
     </footer>

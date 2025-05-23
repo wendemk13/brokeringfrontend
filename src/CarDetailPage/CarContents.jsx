@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 function CarContents({ id, title, image_url, status, price, make, model, year, fuel_type, color, description }) {
   return (
@@ -70,12 +71,12 @@ function CarContents({ id, title, image_url, status, price, make, model, year, f
               </div>
             </div>
             <div className="seller-contact">
-              <a href="#" className="btn btn-primary" style={{ flex: 1 }}>
+              <Link href="#" className="btn btn-primary" style={{ flex: 1 }}>
                 <i className="fas fa-phone"></i> Call
-              </a>
-              <a href="#" className="btn btn-outline" style={{ flex: 1 }}>
+              </Link>
+              <Link href="#" className="btn btn-outline" style={{ flex: 1 }}>
                 <i className="fas fa-envelope"></i> Email
-              </a>
+              </Link>
             </div>
           </div>
 

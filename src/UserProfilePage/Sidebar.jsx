@@ -22,30 +22,30 @@ const Sidebar = () => {
                 <span>BrokerPro</span>
             </div>
             
-            <a href="#" className="nav-item active">
+            <Link href="#" className="nav-item active">
                 <i>📊</i>
                 <span>Dashboard</span>
-            </a>
-            <a href="#" className="nav-item">
+            </Link>
+            <Link href="#" className="nav-item">
                 <i>🚗</i>
                 <span>Listings</span>
-            </a>
-            <a href="#" className="nav-item">
+            </Link>
+            <Link href="#" className="nav-item">
                 <i>💬</i>
                 <span>Messages</span>
-            </a>
+            </Link>
             <Link to={`/UserTransactions/${user_id}`} className="nav-item">
                 <i>💬</i>
                 <span>User Transactions</span>
             </Link>
-            <a href="#" className="nav-item">
+            <Link href="#" className="nav-item">
                 <i>📈</i>
                 <span>Analytics</span>
-            </a>
-            <a href="#" className="nav-item">
+            </Link>
+            <Link href="#" className="nav-item">
                 <i>⚙️</i>
                 <span>Settings</span>
-            </a>
+            </Link>
         </div>
     );
 };

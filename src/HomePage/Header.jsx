@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,22 +23,22 @@ function Header() {
 
       {/* Navigation Links */}
       <nav className={`nav-links ${menuOpen ? 'active' : ''}`}>
-        <a href="#" className="active moblink">Home</a>
-        <a href="#" className='moblink'>Properties</a>
-        <a href="#" className='moblink'>Cars</a>
-        <a href="#" className='moblink'>Agents</a>
-        <a href="#" className='moblink'>About</a>
-        <a href="#" className='moblink'>Contact</a>
+        <Link href="#" className="active moblink">Home</Link>
+        <Link href="#" className='moblink'>Properties</Link>
+        <Link href="#" className='moblink'>Cars</Link>
+        <Link href="#" className='moblink'>Agents</Link>
+        <Link href="#" className='moblink'>About</Link>
+        <Link href="#" className='moblink'>Contact</Link>
       </nav>
 
       {/* User Actions */}
       <div className={`user-actions ${menuOpen ? 'active' : ''}`}>
-        <a href="#" className="btn btn-chatbot" id="chatbot-button">
+        <Link href="#" className="btn btn-chatbot" id="chatbot-button">
           <i className="fas fa-robot"></i> Support
-        </a>
+        </Link>
         <i className="fas fa-search search-toggle"></i>
-        <a href="#" className="btn btn-outline">Login</a>
-        <a href="#" className="btn btn-primary">Register</a>
+        <Link href="#" className="btn btn-outline">Login</Link>
+        <Link href="#" className="btn btn-primary">Register</Link>
       </div>
     </header>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Sidebar({ darkMode, toggleDarkMode }) {
   return (
@@ -7,26 +8,26 @@ function Sidebar({ darkMode, toggleDarkMode }) {
         <span className="logo-icon">🏠</span>
         <span>BrokerPro</span>
       </div>
-      <a href="#" className="nav-item active">
+      <Link href="#" className="nav-item active">
         <i>📊</i>
         <span>Dashboard</span>
-      </a>
-      <a href="#" className="nav-item">
+      </Link>
+      <Link href="#" className="nav-item">
         <i>🚗</i>
         <span>Listings</span>
-      </a>
-      <a href="#" className="nav-item">
+      </Link>
+      <Link href="#" className="nav-item">
         <i>💬</i>
         <span>Messages</span>
-      </a>
-      <a href="#" className="nav-item">
+      </Link>
+      <Link href="#" className="nav-item">
         <i>📈</i>
         <span>Analytics</span>
-      </a>
-      <a href="#" className="nav-item">
+      </Link>
+      <Link href="#" className="nav-item">
         <i>⚙️</i>
         <span>Settings</span>
-      </a>
+      </Link>
       
       <button className="dark-mode-toggle" onClick={toggleDarkMode}>
         {darkMode ? '☀️' : '🌓'}

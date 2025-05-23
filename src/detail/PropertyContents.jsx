@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function PropertyContents({ id,title,image_url, status, price, address, bedrooms, bathrooms, area, type,description }) {
   return (
@@ -87,12 +88,12 @@ function PropertyContents({ id,title,image_url, status, price, address, bedrooms
               </div>
             </div>
             <div className="agent-contact">
-              <a href="#" className="btn btn-primary" style={{ flex: 1 }}>
+              <Link href="#" className="btn btn-primary" style={{ flex: 1 }}>
                 <i className="fas fa-phone"></i> Call
-              </a>
-              <a href="#" className="btn btn-outline" style={{ flex: 1 }}>
+              </Link>
+              <Link href="#" className="btn btn-outline" style={{ flex: 1 }}>
                 <i className="fas fa-envelope"></i> Email
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Similars() {
   return (
@@ -20,7 +21,7 @@ function Similars() {
                 <span><i className="fas fa-bath"></i> 3 baths</span>
                 <span><i className="fas fa-ruler-combined"></i> 2,800 sqft</span>
               </div>
-              <a href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</a>
+              <Link href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</Link>
             </div>
           </div>
 
@@ -38,7 +39,7 @@ function Similars() {
                 <span><i className="fas fa-bath"></i> 4 baths</span>
                 <span><i className="fas fa-ruler-combined"></i> 3,500 sqft</span>
               </div>
-              <a href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</a>
+              <Link href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</Link>
             </div>
           </div>
 
@@ -56,7 +57,7 @@ function Similars() {
                 <span><i className="fas fa-bath"></i> 2 baths</span>
                 <span><i className="fas fa-ruler-combined"></i> 1,800 sqft</span>
               </div>
-              <a href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</a>
+              <Link href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</Link>
             </div>
           </div>
         </div>

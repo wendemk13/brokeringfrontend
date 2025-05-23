@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function SendUsMessage() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
@@ -81,10 +82,10 @@ function SendUsMessage() {
         <div className="social-section">
           <h3>Connect</h3>
           <div className="social-icons">
-            <a href="https://facebook.com/betgebeya" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://twitter.com/betgebeya" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://instagram.com/betgebeya" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://linkedin.com/company/betgebeya" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            <Link href="https://facebook.com/betgebeya" target="_blank" rel="noopener noreferrer"><FaFacebook /></Link>
+            <Link href="https://twitter.com/betgebeya" target="_blank" rel="noopener noreferrer"><FaTwitter /></Link>
+            <Link href="https://instagram.com/betgebeya" target="_blank" rel="noopener noreferrer"><FaInstagram /></Link>
+            <Link href="https://linkedin.com/company/betgebeya" target="_blank" rel="noopener noreferrer"><FaLinkedin /></Link>
           </div>
         </div>
       </div>

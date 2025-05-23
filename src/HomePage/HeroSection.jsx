@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
   return (
@@ -10,7 +11,7 @@ function HeroSection() {
           Discover the perfect property or car from our extensive listings
           across the country. Buy, sell, or rent with ease.
         </p>
-        <a href="#" className="btn btn-white">Explore Listings</a>
+        <Link href="#" className="btn btn-white">Explore Listings</Link>
       </div>
     </section>
     </div>

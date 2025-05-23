@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function CarSimilars() {
   return (
@@ -20,7 +21,7 @@ function CarSimilars() {
                 <span><i className="fas fa-cogs"></i> Automatic</span>
                 <span><i className="fas fa-tachometer-alt"></i> 25,000 miles</span>
               </div>
-              <a href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</a>
+              <Link href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</Link>
             </div>
           </div>
 
@@ -38,8 +39,7 @@ function CarSimilars() {
                 <span><i className="fas fa-cogs"></i> Manual</span>
                 <span><i className="fas fa-tachometer-alt"></i> 30,000 miles</span>
               </div>
-              <a href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</a>
-            </div>
+              <Link href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</Link>           </div>
           </div>
 
           <div className="listing-card">
@@ -56,7 +56,7 @@ function CarSimilars() {
                 <span><i className="fas fa-cogs"></i> Automatic</span>
                 <span><i className="fas fa-tachometer-alt"></i> 15,000 miles</span>
               </div>
-              <a href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</a>
+              <Link href="#" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>View Details</Link>
             </div>
           </div>
         </div>

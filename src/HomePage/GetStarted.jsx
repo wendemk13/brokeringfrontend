@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function GetStarted() {
   return (
@@ -9,7 +10,7 @@ function GetStarted() {
         Join thousands of satisfied customers who found their perfect match
         through our platform
       </p>
-      <a href="#" className="btn btn-primary">Get Started</a>
+      <Link href="#" className="btn btn-primary">Get Started</Link>
     </section>
 
     </div>

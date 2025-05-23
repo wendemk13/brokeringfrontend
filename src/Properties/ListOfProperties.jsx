@@ -68,9 +68,12 @@ function ListOfProperties() {
   const navigate = useNavigate();
 
   useEffect(() => {
+   
     const fetchHouses = async () => {
       try {
         const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/house`);
+        // const response = await axios.get(`http://localhost:5000/api/house`);
+
         if (response.data.success) {
           setProperties(response.data.data); // Access the 'data' array from the response
         } else {
