@@ -23,7 +23,6 @@
     "bootstrap": "^5.3.5",
     "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
-    "eslint": "^9.27.0",
     "formik": "^2.4.6",
     "framer-motion": "^12.8.0",
     "lodash": "^4.17.21",
@@ -71,5 +70,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-react-app": "^7.0.1"
   }
 }
